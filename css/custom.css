@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.mynavbar {
+    padding: 20px 20px 20px 20px;
+    position: relative;
+}
+
+.mynavmenu {
+    overflow: hidden;
+}
+
+.mynavmenu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.mynavmenu a:hover {
+    background-color: #FFF;
+    color: black;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+}
+
+.mycardbox {
+    border-radius: 16px;
+    padding: 8px 8px 8px 32px;
+}
+
+.mygradient {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), skyblue);
+}
+
+.mylabel {
+    font-weight: bold;
+}
+
+.mypostcard {
+    height: 200px;
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .mynavmenu a {
+        float: none;
+        width: 100%;
+    }
+}
