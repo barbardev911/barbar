@@ -19,9 +19,10 @@
     <div class="mynavbar mygradient">
         <div class="col-sm-12 row">
             <div class="col-sm-3">
-                <h2 class="mylogo">BarbarDev</h2>
+                <h2 class="mylogo">@    BarbarDev</h2>
             </div>
             <div class="mynavmenu right mygradient">
+i
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Tutorials</a>
@@ -45,8 +46,9 @@
             <div class="col-sm-12 row">
                 <div class="col-sm-9 mycardbox mygradient">
                     <label class="mylabel">Latest Article</label>
+                    <hr>
                     <div class="col-sm-12 row mygradient">
-                        <div class="col-sm-3 mycardbox mypostcard">
+                        <div class="col-sm-3 mycardbox mypostcard-img">
                             <img src="https://via.placeholder.com/200x200?text=Visit+Blogging.com+Now" alt="" width="100%">
                         </div>
                         <div class="col-sm-9 mycardbox mypostcard">
@@ -58,7 +60,7 @@
                     </div>
                     <br>
                     <div class="col-sm-12 row mygradient">
-                        <div class="col-sm-3 mycardbox mypostcard">
+                        <div class="col-sm-3 mycardbox mypostcard-img">
                             <img src="https://via.placeholder.com/200x200?text=Visit+Blogging.com+Now" alt="" width="100%">
                         </div>
                         <div class="col-sm-9 mycardbox mypostcard">
@@ -70,7 +72,7 @@
                     </div>
                     <br>
                     <div class="col-sm-12 row mygradient">
-                        <div class="col-sm-3 mycardbox mypostcard">
+                        <div class="col-sm-3 mycardbox mypostcard-img">
                             <img src="https://via.placeholder.com/200x200?text=Visit+Blogging.com+Now" alt="" width="100%" height="100%">
                         </div>
                         <div class="col-sm-9 mycardbox mypostcard">
@@ -80,10 +82,11 @@
                             </p>
                         </div>
                     </div>
-                    <br>
                 </div>
+                <!-- <div class="col-sm-1">&nbsp;</div> -->
                 <div class="col-sm-3 mycardbox mygradient">
                     <label class="mylabel">Latest Tutorial</label>
+                    <hr>
                     <div class="col-sm-12 mycardbox mygradient">
                         Tutorial 1
                     </div>

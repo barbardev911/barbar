@@ -4,6 +4,10 @@ body {
     font-family: 'Kaushan Script', cursive;
 }
 
+.navbaricon {
+    display: none;
+}
+
 .mynavbar {
     padding: 20px 20px 20px 20px;
     position: relative;
@@ -52,7 +56,16 @@ body {
 
 @media screen and (max-width: 600px) {
     .mynavmenu a {
+        display: none;
         float: none;
         width: 100%;
+    }
+
+    .mypostcard-img {
+        display: none;
+    }
+
+    .navbaricon {
+        display: block;
     }
 }
